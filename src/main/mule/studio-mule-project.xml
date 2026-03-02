@@ -2,4 +2,8 @@
 
 <mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd"></mule>
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="studio-mule-projectFlow" doc:id="daaa9d11-02f6-460f-b0be-337f5b3521f8" >
+		<logger level="INFO" doc:name="Logger" doc:id="303e9cc6-582a-46dc-93fa-421c3475af4d" message="studio logger"/>
+	</flow>
+</mule>
